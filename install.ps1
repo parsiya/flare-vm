@@ -10,8 +10,9 @@
 ###########################################
 
 param (
-  [string]$password = "",
-  [string]$profile_file = $null,
+  # Default password for Windows VMs from modern.ie
+  [string]$password = "Passw0rd!",
+  [string]$profile_file = "profile.json",
   [switch]$norestart
 )
 
